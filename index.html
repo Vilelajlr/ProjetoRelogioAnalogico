@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital / Analógico - v1</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="relogioDigital" id="relogioDigital">
+        <div>
+            <span id="horas">00</span>
+            <span class="tempo">Horas</span>
+        </div>
+
+        <div>
+            <span id="minutos">00</span>
+            <span class="tempo">Minutos</span>
+        </div>
+
+        <div>
+            <span id="segundos">00</span>
+            <span class="tempo">Segundos</span>
+        </div>
+    </div>
+
+    <div class="buttonTroca"><button id="mudaRelogio">Relógio Analógico</button></div>
+    
+    
+    <div class="clock" id="relogioAnalogico">
+        <div class="numbers">
+            <div class="number" style="transform: rotate(30deg) translate(80px) rotate(-30deg);">4</div>
+            <div class="number" style="transform: rotate(60deg) translate(80px) rotate(-60deg);">5</div>
+            <div class="number" style="transform: rotate(90deg) translate(80px) rotate(-90deg);">6</div>
+            <div class="number" style="transform: rotate(120deg) translate(80px) rotate(-120deg);">7</div>
+            <div class="number" style="transform: rotate(150deg) translate(80px) rotate(-150deg);">8</div>
+            <div class="number" style="transform: rotate(180deg) translate(80px) rotate(-180deg);">9</div>
+            <div class="number" style="transform: rotate(210deg) translate(80px) rotate(-210deg);">10</div>
+            <div class="number" style="transform: rotate(240deg) translate(80px) rotate(-240deg);">11</div>
+            <div class="number" style="transform: rotate(270deg) translate(80px) rotate(-270deg);">12</div>
+            <div class="number" style="transform: rotate(300deg) translate(80px) rotate(-300deg);">1</div>
+            <div class="number" style="transform: rotate(330deg) translate(80px) rotate(-330deg);">2</div>
+            <div class="number" style="transform: rotate(360deg) translate(80px) rotate(-360deg);">3</div>
+        </div>
+        <div class="hand hour" id="hour"></div>
+        <div class="hand minute" id="minute"></div>
+        <div class="hand second" id="second"></div>
+        <div class="center"></div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body> 
+</html>
